@@ -147,7 +147,7 @@ img {
  }
  /*10*/
  .text {
-  float: center;
+  justify-content: center;
   max-height: 25vh;
   overflow: scroll;
  }
@@ -175,10 +175,10 @@ img {
   grid-template-rows: 300px 300px 300px 300px;
   }
   .about, .method, .clients-image, .contact-image {
-    grid-column: 3/span 3; 
+    grid-column: 3/span 2; 
   }
   .clients, .contact, .about-image, .method-image {
-    grid-column: 2/ span 3;
+    grid-column: 2/ span 2;
   }
 
 

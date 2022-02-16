@@ -109,7 +109,7 @@ nav a:focus {
 /* Requirements 6-10 here: */
 .intro {
   background-image: url("../images/header.jpg");
-  background-color: #B3B3B3;
+  background-color: #707070;
 
   min-height: 400px;
 
@@ -147,8 +147,7 @@ img {
  }
  /*10*/
  .text {
-  justify-content: center;
-  align-content: center;
+  align-self: center;
   max-height: 25vh;
   overflow: scroll;
  }
